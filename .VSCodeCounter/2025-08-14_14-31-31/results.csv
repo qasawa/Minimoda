@@ -1,0 +1,150 @@
+"filename", "language", "Markdown", "Shell Script", "JavaScript", "JSON", "JSON with Comments", "TypeScript", "TypeScript JSX", "SVG", "pdf", "Properties", "MS SQL", "CSS", "comment", "blank", "total"
+"/home/qasawa/Minimoda/.env", "Properties", 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 2, 5
+"/home/qasawa/Minimoda/.eslintrc.json", "JSON", 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8
+"/home/qasawa/Minimoda/INTEGRATION_STATUS.md", "Markdown", 118, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 143
+"/home/qasawa/Minimoda/PERFORMANCE_OPTIMIZATION_REPORT.md", "Markdown", 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 131
+"/home/qasawa/Minimoda/README.md", "Markdown", 246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69, 315
+"/home/qasawa/Minimoda/next-i18next.config.js", "JavaScript", 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12
+"/home/qasawa/Minimoda/next.config.js", "JavaScript", 0, 0, 178, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 8, 196
+"/home/qasawa/Minimoda/package-lock.json", "JSON", 0, 0, 0, 12244, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12245
+"/home/qasawa/Minimoda/package.json", "JSON", 0, 0, 0, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 65
+"/home/qasawa/Minimoda/postcss.config.mjs", "JavaScript", 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 9
+"/home/qasawa/Minimoda/public/Kiddora_Brand_Guidelines.pdf", "pdf", 0, 0, 0, 0, 0, 0, 0, 0, 12653, 0, 0, 0, 0, 21, 12674
+"/home/qasawa/Minimoda/public/fallback-WRURmzZVx3fOwO4JnIXfT.js", "JavaScript", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"/home/qasawa/Minimoda/public/images/product-placeholder.svg", "SVG", 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 1, 10
+"/home/qasawa/Minimoda/public/manifest.json", "JSON", 0, 0, 0, 144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 145
+"/home/qasawa/Minimoda/public/sw.js", "JavaScript", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2
+"/home/qasawa/Minimoda/public/workbox-8e5392e7.js", "JavaScript", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2
+"/home/qasawa/Minimoda/scripts/fix-json-syntax.js", "JavaScript", 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 15, 61
+"/home/qasawa/Minimoda/scripts/fix-product-data.js", "JavaScript", 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 16, 84
+"/home/qasawa/Minimoda/scripts/import-products.js", "JavaScript", 0, 0, 182, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 33, 245
+"/home/qasawa/Minimoda/scripts/setup-admin.js", "JavaScript", 0, 0, 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 18, 115
+"/home/qasawa/Minimoda/scripts/setup-database.js", "JavaScript", 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 15, 70
+"/home/qasawa/Minimoda/setup-env.sh", "Shell Script", 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 12, 66
+"/home/qasawa/Minimoda/src/app/[locale]/account/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 441, 0, 0, 0, 0, 0, 10, 42, 493
+"/home/qasawa/Minimoda/src/app/[locale]/brands/brands-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 177, 0, 0, 0, 0, 0, 8, 17, 202
+"/home/qasawa/Minimoda/src/app/[locale]/brands/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 71, 0, 0, 0, 0, 0, 0, 6, 77
+"/home/qasawa/Minimoda/src/app/[locale]/cart/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 227, 0, 0, 0, 0, 0, 12, 27, 266
+"/home/qasawa/Minimoda/src/app/[locale]/category/[slug]/category-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 291, 0, 0, 0, 0, 0, 5, 29, 325
+"/home/qasawa/Minimoda/src/app/[locale]/category/[slug]/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 409, 0, 0, 0, 0, 0, 27, 25, 461
+"/home/qasawa/Minimoda/src/app/[locale]/checkout/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 0, 0, 6, 51
+"/home/qasawa/Minimoda/src/app/[locale]/home-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 73, 0, 0, 0, 0, 0, 10, 18, 101
+"/home/qasawa/Minimoda/src/app/[locale]/layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 2, 10, 72
+"/home/qasawa/Minimoda/src/app/[locale]/loading.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 2, 4, 46
+"/home/qasawa/Minimoda/src/app/[locale]/new/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 300, 0, 0, 0, 0, 0, 11, 31, 342
+"/home/qasawa/Minimoda/src/app/[locale]/not-found.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 134, 0, 0, 0, 0, 0, 7, 12, 153
+"/home/qasawa/Minimoda/src/app/[locale]/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 2, 34
+"/home/qasawa/Minimoda/src/app/[locale]/product/[id]/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 74, 0, 0, 0, 0, 0, 3, 12, 89
+"/home/qasawa/Minimoda/src/app/[locale]/products/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 2, 34
+"/home/qasawa/Minimoda/src/app/[locale]/products/products-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 138, 0, 0, 0, 0, 0, 5, 17, 160
+"/home/qasawa/Minimoda/src/app/[locale]/sale/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 2, 34
+"/home/qasawa/Minimoda/src/app/[locale]/sale/sale-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 3, 10, 73
+"/home/qasawa/Minimoda/src/app/[locale]/wishlist/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 39, 0, 0, 0, 0, 0, 0, 3, 42
+"/home/qasawa/Minimoda/src/app/[locale]/wishlist/wishlist-client.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 57, 0, 0, 0, 0, 0, 0, 7, 64
+"/home/qasawa/Minimoda/src/app/admin/analytics/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 338, 0, 0, 0, 0, 0, 13, 21, 372
+"/home/qasawa/Minimoda/src/app/admin/customers/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 312, 0, 0, 0, 0, 0, 7, 24, 343
+"/home/qasawa/Minimoda/src/app/admin/inventory/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 434, 0, 0, 0, 0, 0, 12, 42, 488
+"/home/qasawa/Minimoda/src/app/admin/layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 90, 0, 0, 0, 0, 0, 8, 17, 115
+"/home/qasawa/Minimoda/src/app/admin/login/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 135, 0, 0, 0, 0, 0, 7, 13, 155
+"/home/qasawa/Minimoda/src/app/admin/orders/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 5, 16
+"/home/qasawa/Minimoda/src/app/admin/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 382, 0, 0, 0, 0, 0, 12, 32, 426
+"/home/qasawa/Minimoda/src/app/admin/products/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 683, 0, 0, 0, 0, 0, 22, 47, 752
+"/home/qasawa/Minimoda/src/app/admin/promotions/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 306, 0, 0, 0, 0, 0, 5, 22, 333
+"/home/qasawa/Minimoda/src/app/admin/settings/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 386, 0, 0, 0, 0, 0, 3, 22, 411
+"/home/qasawa/Minimoda/src/app/admin/shipping/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 264, 0, 0, 0, 0, 0, 5, 24, 293
+"/home/qasawa/Minimoda/src/app/admin/whatsapp/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 0, 2, 6, 32
+"/home/qasawa/Minimoda/src/app/api/whatsapp/webhook/route.ts", "TypeScript", 0, 0, 0, 0, 0, 73, 0, 0, 0, 0, 0, 0, 22, 20, 115
+"/home/qasawa/Minimoda/src/app/design-tokens.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 193, 77, 45, 315
+"/home/qasawa/Minimoda/src/app/globals.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 368, 51, 81, 500
+"/home/qasawa/Minimoda/src/app/offline/layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 3, 19
+"/home/qasawa/Minimoda/src/app/offline/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 71, 0, 0, 0, 0, 0, 5, 8, 84
+"/home/qasawa/Minimoda/src/components/admin/inventory-alerts.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 145, 0, 0, 0, 0, 0, 0, 14, 159
+"/home/qasawa/Minimoda/src/components/admin/navigation.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 75, 0, 0, 0, 0, 0, 3, 9, 87
+"/home/qasawa/Minimoda/src/components/admin/order-management.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 681, 0, 0, 0, 0, 0, 18, 55, 754
+"/home/qasawa/Minimoda/src/components/admin/popular-items.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 159, 0, 0, 0, 0, 0, 3, 18, 180
+"/home/qasawa/Minimoda/src/components/admin/realtime-chart.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 122, 0, 0, 0, 0, 0, 4, 20, 146
+"/home/qasawa/Minimoda/src/components/admin/recent-orders.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 186, 0, 0, 0, 0, 0, 0, 17, 203
+"/home/qasawa/Minimoda/src/components/admin/sidebar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 138, 0, 0, 0, 0, 0, 0, 8, 146
+"/home/qasawa/Minimoda/src/components/admin/whatsapp-center.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 354, 0, 0, 0, 0, 0, 6, 34, 394
+"/home/qasawa/Minimoda/src/components/auth/customer-auth-modal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 451, 0, 0, 0, 0, 0, 6, 35, 492
+"/home/qasawa/Minimoda/src/components/performance-monitor.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 54, 0, 0, 0, 0, 0, 2, 15, 71
+"/home/qasawa/Minimoda/src/components/performance-optimized-layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 3, 6, 27
+"/home/qasawa/Minimoda/src/components/sections/categories-bubbles.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 169, 0, 0, 0, 0, 0, 7, 17, 193
+"/home/qasawa/Minimoda/src/components/sections/checkout-content.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 644, 0, 0, 0, 0, 0, 19, 60, 723
+"/home/qasawa/Minimoda/src/components/sections/collections-editorial.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 108, 0, 0, 0, 0, 0, 5, 14, 127
+"/home/qasawa/Minimoda/src/components/sections/email-signup-minimal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 107, 0, 0, 0, 0, 0, 4, 12, 123
+"/home/qasawa/Minimoda/src/components/sections/featured-brands.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 299, 0, 0, 0, 0, 0, 11, 32, 342
+"/home/qasawa/Minimoda/src/components/sections/footer-maisonette.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 262, 0, 0, 0, 0, 0, 14, 15, 291
+"/home/qasawa/Minimoda/src/components/sections/footer-minimal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 151, 0, 0, 0, 0, 0, 6, 13, 170
+"/home/qasawa/Minimoda/src/components/sections/hero-editorial.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 128, 0, 0, 0, 0, 0, 6, 12, 146
+"/home/qasawa/Minimoda/src/components/sections/hero-maisonette.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 372, 0, 0, 0, 0, 0, 17, 22, 411
+"/home/qasawa/Minimoda/src/components/sections/main-categories.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 274, 0, 0, 0, 0, 0, 13, 18, 305
+"/home/qasawa/Minimoda/src/components/sections/navigation-maisonette-fixed.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 229, 0, 0, 0, 0, 0, 18, 22, 269
+"/home/qasawa/Minimoda/src/components/sections/navigation-maisonette.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 513, 0, 0, 0, 0, 0, 46, 61, 620
+"/home/qasawa/Minimoda/src/components/sections/navigation-minimal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 179, 0, 0, 0, 0, 0, 18, 22, 219
+"/home/qasawa/Minimoda/src/components/sections/new-arrivals-maisonette.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 4, 10, 116
+"/home/qasawa/Minimoda/src/components/sections/new-arrivals-minimal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 0, 4, 9, 82
+"/home/qasawa/Minimoda/src/components/sections/new-in-section.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 174, 0, 0, 0, 0, 0, 6, 24, 204
+"/home/qasawa/Minimoda/src/components/sections/organized-categories.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 330, 0, 0, 0, 0, 0, 15, 19, 364
+"/home/qasawa/Minimoda/src/components/sections/product-detail-premium.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 470, 0, 0, 0, 0, 0, 18, 33, 521
+"/home/qasawa/Minimoda/src/components/sections/product-detail.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 307, 0, 0, 0, 0, 0, 17, 24, 348
+"/home/qasawa/Minimoda/src/components/sections/products-page-content.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 450, 0, 0, 0, 0, 0, 29, 38, 517
+"/home/qasawa/Minimoda/src/components/ui/badge.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 31, 0, 0, 0, 0, 0, 0, 5, 36
+"/home/qasawa/Minimoda/src/components/ui/bottom-sheet-filter.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 145, 0, 0, 0, 0, 0, 9, 20, 174
+"/home/qasawa/Minimoda/src/components/ui/button.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 58, 0, 0, 0, 0, 0, 3, 7, 68
+"/home/qasawa/Minimoda/src/components/ui/card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 63, 0, 0, 0, 0, 0, 0, 8, 71
+"/home/qasawa/Minimoda/src/components/ui/cart-drawer.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 204, 0, 0, 0, 0, 0, 9, 17, 230
+"/home/qasawa/Minimoda/src/components/ui/enhanced-search.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 277, 0, 0, 0, 0, 0, 14, 30, 321
+"/home/qasawa/Minimoda/src/components/ui/global-cursor-trail.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 122, 0, 0, 0, 0, 0, 7, 13, 142
+"/home/qasawa/Minimoda/src/components/ui/image-upload.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 249, 0, 0, 0, 0, 0, 6, 27, 282
+"/home/qasawa/Minimoda/src/components/ui/image-with-fallback.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 39, 0, 0, 0, 0, 0, 0, 6, 45
+"/home/qasawa/Minimoda/src/components/ui/kiddora-animated-logo.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 256, 0, 0, 0, 0, 0, 7, 15, 278
+"/home/qasawa/Minimoda/src/components/ui/kids-product-features.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 220, 0, 0, 0, 0, 0, 6, 26, 252
+"/home/qasawa/Minimoda/src/components/ui/language-toggle.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 2, 15, 119
+"/home/qasawa/Minimoda/src/components/ui/mobile-bottom-nav.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 233, 0, 0, 0, 0, 0, 15, 22, 270
+"/home/qasawa/Minimoda/src/components/ui/morphing-text.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 229, 0, 0, 0, 0, 0, 10, 17, 256
+"/home/qasawa/Minimoda/src/components/ui/product-card-maisonette.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 272, 0, 0, 0, 0, 0, 23, 32, 327
+"/home/qasawa/Minimoda/src/components/ui/product-card-minimal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 125, 0, 0, 0, 0, 0, 11, 18, 154
+"/home/qasawa/Minimoda/src/components/ui/pull-to-refresh.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 91, 0, 0, 0, 0, 0, 3, 8, 102
+"/home/qasawa/Minimoda/src/components/ui/size-confidence-tool.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 362, 0, 0, 0, 0, 0, 13, 32, 407
+"/home/qasawa/Minimoda/src/components/ui/skeleton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 74, 0, 0, 0, 0, 0, 9, 13, 96
+"/home/qasawa/Minimoda/src/components/ui/web3-background.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 166, 0, 0, 0, 0, 0, 8, 19, 193
+"/home/qasawa/Minimoda/src/lib/contexts/admin-context.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 7, 39
+"/home/qasawa/Minimoda/src/lib/contexts/cart-context.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 18, 128
+"/home/qasawa/Minimoda/src/lib/data/products.ts", "TypeScript", 0, 0, 0, 0, 0, 911, 0, 0, 0, 0, 0, 0, 11, 12, 934
+"/home/qasawa/Minimoda/src/lib/hooks/use-debounce.ts", "TypeScript", 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 6, 4, 23
+"/home/qasawa/Minimoda/src/lib/hooks/use-media-query.ts", "TypeScript", 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 0, 0, 11, 20, 87
+"/home/qasawa/Minimoda/src/lib/hooks/use-mobile-gestures.ts", "TypeScript", 0, 0, 0, 0, 0, 295, 0, 0, 0, 0, 0, 0, 27, 57, 379
+"/home/qasawa/Minimoda/src/lib/hooks/use-mouse-interactive.ts", "TypeScript", 0, 0, 0, 0, 0, 83, 0, 0, 0, 0, 0, 0, 9, 16, 108
+"/home/qasawa/Minimoda/src/lib/hooks/use-pull-to-refresh.ts", "TypeScript", 0, 0, 0, 0, 0, 70, 0, 0, 0, 0, 0, 0, 2, 17, 89
+"/home/qasawa/Minimoda/src/lib/hooks/use-scroll-magic.ts", "TypeScript", 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, 0, 13, 31, 168
+"/home/qasawa/Minimoda/src/lib/hooks/use-touch-gestures.ts", "TypeScript", 0, 0, 0, 0, 0, 184, 0, 0, 0, 0, 0, 0, 17, 26, 227
+"/home/qasawa/Minimoda/src/lib/i18n.ts", "TypeScript", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 3, 13
+"/home/qasawa/Minimoda/src/lib/services/admin-auth-service.ts", "TypeScript", 0, 0, 0, 0, 0, 240, 0, 0, 0, 0, 0, 0, 48, 50, 338
+"/home/qasawa/Minimoda/src/lib/services/auth-service.ts", "TypeScript", 0, 0, 0, 0, 0, 401, 0, 0, 0, 0, 0, 0, 32, 72, 505
+"/home/qasawa/Minimoda/src/lib/services/customer-auth-service.ts", "TypeScript", 0, 0, 0, 0, 0, 334, 0, 0, 0, 0, 0, 0, 43, 63, 440
+"/home/qasawa/Minimoda/src/lib/services/image-service.ts", "TypeScript", 0, 0, 0, 0, 0, 378, 0, 0, 0, 0, 0, 0, 30, 71, 479
+"/home/qasawa/Minimoda/src/lib/services/inventory-service.ts", "TypeScript", 0, 0, 0, 0, 0, 421, 0, 0, 0, 0, 0, 0, 24, 69, 514
+"/home/qasawa/Minimoda/src/lib/services/isracard-service.ts", "TypeScript", 0, 0, 0, 0, 0, 180, 0, 0, 0, 0, 0, 0, 38, 37, 255
+"/home/qasawa/Minimoda/src/lib/services/order-service.ts", "TypeScript", 0, 0, 0, 0, 0, 372, 0, 0, 0, 0, 0, 0, 23, 62, 457
+"/home/qasawa/Minimoda/src/lib/services/search-service.ts", "TypeScript", 0, 0, 0, 0, 0, 583, 0, 0, 0, 0, 0, 0, 63, 104, 750
+"/home/qasawa/Minimoda/src/lib/services/whatsapp-service.ts", "TypeScript", 0, 0, 0, 0, 0, 389, 0, 0, 0, 0, 0, 0, 42, 86, 517
+"/home/qasawa/Minimoda/src/lib/supabase/client.ts", "TypeScript", 0, 0, 0, 0, 0, 382, 0, 0, 0, 0, 0, 0, 3, 6, 391
+"/home/qasawa/Minimoda/src/lib/supabase/products-service.ts", "TypeScript", 0, 0, 0, 0, 0, 171, 0, 0, 0, 0, 0, 0, 16, 33, 220
+"/home/qasawa/Minimoda/src/lib/translations/ar.json", "JSON", 0, 0, 0, 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 175
+"/home/qasawa/Minimoda/src/lib/translations/en.json", "JSON", 0, 0, 0, 222, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 223
+"/home/qasawa/Minimoda/src/lib/translations/he.json", "JSON", 0, 0, 0, 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 175
+"/home/qasawa/Minimoda/src/lib/types.ts", "TypeScript", 0, 0, 0, 0, 0, 179, 0, 0, 0, 0, 0, 0, 5, 13, 197
+"/home/qasawa/Minimoda/src/lib/utils/category-system.ts", "TypeScript", 0, 0, 0, 0, 0, 352, 0, 0, 0, 0, 0, 0, 22, 32, 406
+"/home/qasawa/Minimoda/src/lib/utils/cn.ts", "TypeScript", 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"/home/qasawa/Minimoda/src/lib/utils/currency.ts", "TypeScript", 0, 0, 0, 0, 0, 184, 0, 0, 0, 0, 0, 0, 68, 40, 292
+"/home/qasawa/Minimoda/src/lib/utils/getDictionary.ts", "TypeScript", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 3, 12
+"/home/qasawa/Minimoda/src/lib/utils/performance-optimizations.ts", "TypeScript", 0, 0, 0, 0, 0, 134, 0, 0, 0, 0, 0, 0, 13, 38, 185
+"/home/qasawa/Minimoda/src/lib/utils/performance.ts", "TypeScript", 0, 0, 0, 0, 0, 398, 0, 0, 0, 0, 0, 0, 26, 85, 509
+"/home/qasawa/Minimoda/src/lib/utils/seo.ts", "TypeScript", 0, 0, 0, 0, 0, 420, 0, 0, 0, 0, 0, 0, 19, 45, 484
+"/home/qasawa/Minimoda/src/middleware.ts", "TypeScript", 0, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 6, 11, 61
+"/home/qasawa/Minimoda/supabase/admin-tables.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 0, 8, 11, 63
+"/home/qasawa/Minimoda/supabase/schema.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 282, 0, 33, 48, 363
+"/home/qasawa/Minimoda/tailwind.config.ts", "TypeScript", 0, 0, 0, 0, 0, 123, 0, 0, 0, 0, 0, 0, 6, 2, 131
+"/home/qasawa/Minimoda/tsconfig.json", "JSON with Comments", 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 1, 27
+"Total", "-", 466, 41, 598, 13029, 26, 7518, 17364, 9, 12653, 3, 326, 561, 1599, 3243, 57436

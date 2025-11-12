@@ -1,0 +1,174 @@
+{
+  "common": {
+    "shopNow": "קנה עכשיו",
+    "addToCart": "הוסף לסל",
+    "quickShop": "קנייה מהירה",
+    "new": "חדש",
+    "sale": "מבצע",
+    "sizeGuide": "מדריך מידות",
+    "selectSize": "בחר מידה",
+    "viewDetails": "צפה בפרטים",
+    "cart": "עגלה",
+    "checkout": "לקופה",
+    "subtotal": "סכום ביניים",
+    "shipping": "משלוח",
+    "total": "סה״כ",
+    "continueShopping": "המשך בקניות",
+    "emptyCart": "העגלה שלך ריקה",
+    "loading": "טוען...",
+    "search": "חיפוש",
+    "menu": "תפריט",
+    "close": "סגור",
+    "filter": "סינון",
+    "sort": "מיון",
+    "clearAll": "נקה הכל"
+  },
+  "navigation": {
+    "newArrivals": "חדש בקולקציה",
+    "boys": "בנים",
+    "girls": "בנות",
+    "baby": "תינוקות",
+    "sale": "מבצעים",
+    "collections": "קולקציות",
+    "about": "אודות"
+  },
+  "hero": {
+    "title": "איפה נוחות פוגשת סטייל",
+    "subtitle": "עיצובים שובבים לכל הרפתקה",
+    "cta": "גלה את הקולקציה"
+  },
+  "products": {
+    "colors": "צבעים",
+    "sizes": "מידות",
+    "price": "מחיר",
+    "age": "גיל",
+    "category": "קטגוריה",
+    "sortBy": {
+      "featured": "מומלצים",
+      "newest": "חדש ביותר",
+      "priceLowToHigh": "מחיר: נמוך לגבוה",
+      "priceHighToLow": "מחיר: גבוה לנמוך"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "הישארו מעודכנים",
+      "subtitle": "קבלו הצעות בלעדיות ומוצרים חדשים",
+      "placeholder": "הכניסו את המייל שלכם",
+      "button": "הרשמה"
+    },
+    "customerCare": "שירות לקוחות",
+    "aboutUs": "אודותינו",
+    "contact": "צור קשר",
+    "shipping": "משלוחים והחזרות",
+    "sizeGuide": "מדריך מידות",
+    "faq": "שאלות נפוצות",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאי שימוש"
+  },
+  "checkout": {
+    "emptyCartMessage": "עגלת הקניות ריקה. בואו נמצא משהו מדהים לקטנים שלכם!",
+    "cartItems": "פריטים בעגלה",
+    "orderSummary": "סיכום הזמנה"
+  },
+  "404": {
+    "title": "אופס! הדף לא נמצא",
+    "subtitle": "נראה שהדף הזה יצא להרפתקה",
+    "button": "חזרה הביתה"
+  },
+  "categories": {
+    "baby": "תינוקות",
+    "girls": "בנות",
+    "boys": "בנים",
+    "kids": "ילדים",
+    "womens": "נשים",
+    "home": "בית",
+    "toys": "צעצועים",
+    "gear": "ציוד",
+    "dress": "שמלות",
+    "outlet": "אאוטלט"
+  },
+  "admin": {
+    "dashboard": "לוח בקרה",
+    "orders": "הזמנות",
+    "products": "מוצרים",
+    "customers": "לקוחות",
+    "inventory": "מלאי",
+    "analytics": "ניתוחים",
+    "settings": "הגדרות",
+    "logout": "התנתק",
+    "orderManagement": "ניהול הזמנות",
+    "orderNumber": "מספר הזמנה",
+    "customerName": "שם הלקוח",
+    "orderStatus": "סטטוס הזמנה",
+    "paymentStatus": "סטטוס תשלום",
+    "orderDate": "תאריך הזמנה",
+    "totalAmount": "סכום כולל",
+    "actions": "פעולות",
+    "viewOrder": "הצג הזמנה",
+    "editOrder": "ערוך הזמנה",
+    "cancelOrder": "בטל הזמנה",
+    "stockLevel": "רמת מלאי",
+    "lowStock": "מלאי נמוך",
+    "outOfStock": "אזל המלאי",
+    "restockAlert": "התראת מלאי",
+    "addStock": "הוסף מלאי",
+    "updateStock": "עדכן מלאי"
+  },
+  "currency": {
+    "symbol": "₪",
+    "code": "ILS",
+    "name": "שקל חדש"
+  },
+  "search": {
+    "placeholder": "חפש מוצרים...",
+    "noResults": "לא נמצאו תוצאות",
+    "searchResults": "תוצאות חיפוש",
+    "suggestions": "הצעות",
+    "recentSearches": "חיפושים אחרונים"
+  },
+  "filters": {
+    "priceRange": "טווח מחירים",
+    "size": "גודל",
+    "color": "צבע",
+    "brand": "מותג",
+    "ageGroup": "קבוצת גיל",
+    "gender": "מין",
+    "category": "קטגוריה",
+    "availability": "זמינות",
+    "inStock": "במלאי",
+    "onSale": "במבצע",
+    "newArrivals": "חדש הגיע"
+  },
+  "orders": {
+    "pending": "ממתין",
+    "confirmed": "אושר",
+    "processing": "בטיפול",
+    "shipped": "נשלח",
+    "delivered": "נמסר",
+    "cancelled": "בוטל",
+    "returned": "הוחזר",
+    "trackingNumber": "מספר מעקב",
+    "estimatedDelivery": "משלוח משוער",
+    "orderDetails": "פרטי הזמנה",
+    "shippingAddress": "כתובת משלוח",
+    "billingAddress": "כתובת חיוב",
+    "paymentMethod": "אמצעי תשלום"
+  },
+  "errors": {
+    "generic": "משהו השתבש. אנא נסה שוב.",
+    "network": "שגיאת רשת. אנא בדוק את החיבור.",
+    "notFound": "הפריט לא נמצא.",
+    "unauthorized": "אין לך הרשאה לביצוע פעולה זו.",
+    "validation": "אנא בדוק את הקלט שלך ונסה שוב.",
+    "outOfStock": "פריט זה אזל כרגע מהמלאי.",
+    "insufficientStock": "אין מספיק פריטים במלאי."
+  },
+  "success": {
+    "orderPlaced": "ההזמנה בוצעה בהצלחה!",
+    "addedToCart": "נוסף לעגלה!",
+    "stockUpdated": "המלאי עודכן בהצלחה!",
+    "orderUpdated": "ההזמנה עודכנה בהצלחה!",
+    "settingsSaved": "ההגדרות נשמרו בהצלחה!"
+  }
+}

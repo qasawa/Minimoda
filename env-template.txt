@@ -1,0 +1,50 @@
+# ===============================================
+# ENVIRONMENT VARIABLES TEMPLATE FOR MINIMODA
+# ===============================================
+# 
+# Copy this file to .env.local and fill in your actual values
+# 
+# IMPORTANT: Make sure .env.local is in your .gitignore file!
+#
+
+# ===============================================
+# SUPABASE CONFIGURATION (REQUIRED)
+# ===============================================
+# Get these values from your Supabase project dashboard:
+# 1. Go to https://supabase.com/dashboard
+# 2. Select your project
+# 3. Go to Settings > API
+# 4. Copy the values below
+
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url_here
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
+
+# Example of what these should look like:
+# NEXT_PUBLIC_SUPABASE_URL=https://abcdefghijklmnop.supabase.co
+# NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFiY2RlZmdoaWprbG1ub3AiLCJyb2xlIjoiYW5vbiIsImlhdCI6MTYzNjM5MzQ4OCwiZXhwIjoxOTUxOTY5NDg4fQ.example
+# SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFiY2RlZmdoaWprbG1ub3AiLCJyb2xlIjoic2VydmljZV9yb2xlIiwiaWF0IjoxNjM2MzkzNDg4LCJleHAiOjE5NTE5Njk0ODh9.example
+
+# ===============================================
+# OPTIONAL CONFIGURATION
+# ===============================================
+# These are optional but recommended for production
+
+# Database URL (if using direct PostgreSQL connection)
+# DATABASE_URL=postgresql://postgres:password@localhost:5432/minimoda
+
+# NextAuth Configuration (for authentication)
+# NEXTAUTH_SECRET=your_nextauth_secret_here
+# NEXTAUTH_URL=http://localhost:3000
+
+# ===============================================
+# INSTRUCTIONS:
+# ===============================================
+# 1. Create a new file called .env.local in your project root
+# 2. Copy the content above
+# 3. Replace the placeholder values with your actual Supabase credentials
+# 4. Save the file
+# 5. Restart your development server (npm run dev)
+#
+# The website will work with mock data until you configure Supabase.
+# Once Supabase is configured, it will automatically use the real database.

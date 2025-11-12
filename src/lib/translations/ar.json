@@ -1,0 +1,174 @@
+{
+  "common": {
+    "shopNow": "تسوق الآن",
+    "addToCart": "أضف إلى السلة",
+    "quickShop": "تسوق سريع",
+    "new": "جديد",
+    "sale": "تخفيض",
+    "sizeGuide": "دليل المقاسات",
+    "selectSize": "اختر المقاس",
+    "viewDetails": "عرض التفاصيل",
+    "cart": "السلة",
+    "checkout": "الدفع",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "الشحن",
+    "total": "المجموع",
+    "continueShopping": "متابعة التسوق",
+    "emptyCart": "سلتك فارغة",
+    "loading": "جاري التحميل...",
+    "search": "بحث",
+    "menu": "القائمة",
+    "close": "إغلاق",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "clearAll": "مسح الكل"
+  },
+  "navigation": {
+    "newArrivals": "وصل حديثاً",
+    "boys": "أولاد",
+    "girls": "بنات",
+    "baby": "رضع",
+    "sale": "تخفيضات",
+    "collections": "المجموعات",
+    "about": "من نحن"
+  },
+  "hero": {
+    "title": "حيث تلتقي الراحة بالأناقة",
+    "subtitle": "تصاميم مرحة لكل مغامرة",
+    "cta": "اكتشف المجموعة"
+  },
+  "products": {
+    "colors": "الألوان",
+    "sizes": "المقاسات",
+    "price": "السعر",
+    "age": "العمر",
+    "category": "الفئة",
+    "sortBy": {
+      "featured": "المميز",
+      "newest": "الأحدث",
+      "priceLowToHigh": "السعر: من الأقل إلى الأعلى",
+      "priceHighToLow": "السعر: من الأعلى إلى الأقل"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "ابق على اطلاع",
+      "subtitle": "احصل على عروض حصرية ومنتجات جديدة",
+      "placeholder": "أدخل بريدك الإلكتروني",
+      "button": "اشترك"
+    },
+    "customerCare": "خدمة العملاء",
+    "aboutUs": "من نحن",
+    "contact": "اتصل بنا",
+    "shipping": "الشحن والإرجاع",
+    "sizeGuide": "دليل المقاسات",
+    "faq": "الأسئلة الشائعة",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة"
+  },
+  "checkout": {
+    "emptyCartMessage": "عربة التسوق فارغة. دعونا نجد شيئاً رائعاً لصغاركم!",
+    "cartItems": "العناصر في العربة",
+    "orderSummary": "ملخص الطلب"
+  },
+  "404": {
+    "title": "عذراً! الصفحة غير موجودة",
+    "subtitle": "يبدو أن هذه الصفحة ذهبت في مغامرة",
+    "button": "العودة للرئيسية"
+  },
+  "categories": {
+    "baby": "طفل رضيع",
+    "girls": "بنات",
+    "boys": "أولاد",
+    "kids": "أطفال",
+    "womens": "نساء",
+    "home": "منزل",
+    "toys": "ألعاب",
+    "gear": "معدات",
+    "dress": "فساتين",
+    "outlet": "تخفيضات"
+  },
+  "admin": {
+    "dashboard": "لوحة التحكم",
+    "orders": "الطلبات",
+    "products": "المنتجات",
+    "customers": "العملاء",
+    "inventory": "المخزون",
+    "analytics": "التحليلات",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "orderManagement": "إدارة الطلبات",
+    "orderNumber": "رقم الطلب",
+    "customerName": "اسم العميل",
+    "orderStatus": "حالة الطلب",
+    "paymentStatus": "حالة الدفع",
+    "orderDate": "تاريخ الطلب",
+    "totalAmount": "المبلغ الإجمالي",
+    "actions": "الإجراءات",
+    "viewOrder": "عرض الطلب",
+    "editOrder": "تعديل الطلب",
+    "cancelOrder": "إلغاء الطلب",
+    "stockLevel": "مستوى المخزون",
+    "lowStock": "مخزون منخفض",
+    "outOfStock": "نفد المخزون",
+    "restockAlert": "تنبيه إعادة التخزين",
+    "addStock": "إضافة مخزون",
+    "updateStock": "تحديث المخزون"
+  },
+  "currency": {
+    "symbol": "₪",
+    "code": "ILS",
+    "name": "الشيكل الجديد"
+  },
+  "search": {
+    "placeholder": "ابحث عن المنتجات...",
+    "noResults": "لم يتم العثور على نتائج",
+    "searchResults": "نتائج البحث",
+    "suggestions": "اقتراحات",
+    "recentSearches": "عمليات بحث حديثة"
+  },
+  "filters": {
+    "priceRange": "نطاق الأسعار",
+    "size": "الحجم",
+    "color": "اللون",
+    "brand": "الماركة",
+    "ageGroup": "الفئة العمرية",
+    "gender": "الجنس",
+    "category": "الفئة",
+    "availability": "التوفر",
+    "inStock": "متوفر",
+    "onSale": "في التخفيض",
+    "newArrivals": "وصل حديثاً"
+  },
+  "orders": {
+    "pending": "قيد الانتظار",
+    "confirmed": "مؤكد",
+    "processing": "قيد المعالجة",
+    "shipped": "تم الشحن",
+    "delivered": "تم التسليم",
+    "cancelled": "ملغى",
+    "returned": "مرتجع",
+    "trackingNumber": "رقم التتبع",
+    "estimatedDelivery": "التسليم المتوقع",
+    "orderDetails": "تفاصيل الطلب",
+    "shippingAddress": "عنوان الشحن",
+    "billingAddress": "عنوان الفواتير",
+    "paymentMethod": "طريقة الدفع"
+  },
+  "errors": {
+    "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "network": "خطأ في الشبكة. يرجى فحص اتصالك.",
+    "notFound": "لم يتم العثور على العنصر.",
+    "unauthorized": "ليس لديك ترخيص لأداء هذا الإجراء.",
+    "validation": "يرجى فحص المدخلات والمحاولة مرة أخرى.",
+    "outOfStock": "هذا العنصر غير متوفر حالياً.",
+    "insufficientStock": "لا توجد عناصر كافية في المخزون."
+  },
+  "success": {
+    "orderPlaced": "تم وضع الطلب بنجاح!",
+    "addedToCart": "تم إضافته إلى العربة!",
+    "stockUpdated": "تم تحديث المخزون بنجاح!",
+    "orderUpdated": "تم تحديث الطلب بنجاح!",
+    "settingsSaved": "تم حفظ الإعدادات بنجاح!"
+  }
+}

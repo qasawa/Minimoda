@@ -2,9 +2,324 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Design Tokens - Our design system foundation */
+@import './design-tokens.css';
+
+/* Performance Optimizations */
+* {
+  /* Hardware acceleration for smoother animations */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+
+/* ULTRA AGGRESSIVE mobile performance optimizations */
+@media (max-width: 768px) {
+  /* DISABLE ALL ANIMATIONS AND TRANSITIONS */
+  *, *::before, *::after {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* Disable Framer Motion completely */
+  [data-framer-motion], [data-framer-appear] {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  /* Disable all visual effects */
+  .blur-3xl, .blur-2xl, .blur-xl, .blur-lg, .blur-md, .blur-sm, .blur { 
+    filter: none !important;
+  }
+  
+  /* Disable all transforms */
+  .scale-105, .scale-110, .scale-125, .scale-95, .scale-90,
+  .-translate-y-1, .-translate-y-2, .-translate-y-3,
+  .translate-x-full, .-translate-x-full,
+  .rotate-45, .rotate-90, .rotate-180,
+  .transform-gpu, .transform-3d {
+    transform: none !important;
+  }
+
+  /* Remove ALL hover effects (useless on touch) */
+  .hover\\:scale-105:hover,
+  .hover\\:scale-110:hover,
+  .hover\\:-translate-y-1:hover,
+  .hover\\:-translate-y-2:hover,
+  .hover\\:shadow-lg:hover,
+  .hover\\:shadow-xl:hover,
+  .group:hover .group-hover\\:scale-105,
+  .group:hover .group-hover\\:scale-110,
+  .group:hover .group-hover\\:-translate-y-1 {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+  
+  /* Disable all shadows */
+  .shadow-2xl, .shadow-xl, .shadow-lg, .shadow-md {
+    box-shadow: none !important;
+  }
+  
+  /* Simplify ONLY decorative gradients, keep functional backgrounds */
+  .bg-gradient-decorative, .decorative-gradient,
+  .rainbow-gradient, .rainbow-bg,
+  [class*="from-purple"][class*="to-pink"],
+  [class*="from-pink"][class*="to-blue"] {
+    background: #f9fafb !important;
+  }
+  
+  /* Disable ALL backdrop filters */
+  .backdrop-blur, .backdrop-filter, .backdrop-blur-sm, 
+  .backdrop-blur-md, .backdrop-blur-lg {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+  
+  /* Force hardware acceleration for essential elements only */
+  .scroll-smooth {
+    scroll-behavior: auto !important;
+  }
+  
+  /* Reduce will-change usage */
+  * {
+    will-change: auto !important;
+  }
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Use design tokens for consistency */
+  --background: var(--color-background);
+  --foreground: var(--color-text-primary);
+  
+  /* Premium Typography System */
+  --font-canela: 'Canela', 'Georgia', serif;
+  --font-apercu: 'Apercu', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-rubik: 'Rubik', system-ui, sans-serif;
+  --font-tajawal: 'Tajawal', system-ui, sans-serif;
+}
+
+/* RTL Support */
+html.rtl {
+  direction: rtl;
+}
+
+html.rtl * {
+  direction: rtl;
+}
+
+/* RTL-specific text alignment */
+html.rtl .text-left:not(.force-ltr) {
+  text-align: right;
+}
+
+html.rtl .text-right:not(.force-ltr) {
+  text-align: left;
+}
+
+/* RTL spacing utilities */
+html.rtl .ml-auto {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+html.rtl .mr-auto {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* RTL flex direction for specific components */
+html.rtl .flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* RTL font selection */
+html.rtl {
+  font-family: var(--font-rubik);
+}
+
+html[lang="ar"] {
+  font-family: var(--font-tajawal);
+}
+
+html[lang="he"] {
+  font-family: var(--font-rubik);
+}
+
+/* RTL-specific navigation spacing */
+html.rtl .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+html.rtl .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+html.rtl .space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+/* RTL-specific form inputs */
+html.rtl input,
+html.rtl textarea,
+html.rtl select {
+  text-align: right;
+}
+
+html.rtl input[type="number"] {
+  text-align: right;
+}
+
+/* RTL-specific icons and buttons */
+html.rtl .transform.rotate-180 {
+  transform: rotate(0deg);
+}
+
+/* Force LTR for specific elements that should always be LTR */
+.force-ltr,
+.currency,
+.phone-number,
+.email {
+  direction: ltr !important;
+}
+
+/* Web3 Global Enhancements */
+.interactive {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.interactive:hover {
+  transform: translateY(-2px);
+}
+
+/* Smooth scrolling for all elements */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar with Web3 styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(139, 92, 246, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #8B5CF6, #EC4899);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #7C3AED, #DB2777);
+}
+
+/* Global selection styling */
+::selection {
+  background: rgba(139, 92, 246, 0.3);
+  color: inherit;
+}
+
+/* Performance optimizations */
+* {
+  /* Enable hardware acceleration for better performance */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  /* Optimize font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Additional mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Simplify animations on mobile */
+  .animate-pulse {
+    animation-duration: 3s !important;
+  }
+  
+  /* Disable expensive animations on mobile */
+  .mobile-static {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Reduce motion for accessibility and performance */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Subtle glow effects for interactive elements */
+.glow-on-hover:hover {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+/* Page transitions */
+.page-transition {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: pageEnter 0.6s ease-out forwards;
+}
+
+@keyframes pageEnter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading shimmer effect */
+.shimmer {
+  background: linear-gradient(90deg, 
+    rgba(255,255,255,0) 0%, 
+    rgba(255,255,255,0.2) 50%, 
+    rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* RTL-specific checkout and cart */
+html.rtl .checkout-step {
+  text-align: right;
+}
+
+/* RTL breadcrumbs */
+html.rtl .breadcrumb-separator {
+  transform: scaleX(-1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,14 +329,259 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-text-secondary);
+  background: var(--color-background);
+  font-family: var(--font-apercu), -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* RTL specific styles */
+[dir="rtl"] body {
+  font-family: var(--font-rubik);
+}
+
+[lang="ar"] body {
+  font-family: var(--font-tajawal);
+}
+
+/* RTL utility classes */
+[dir="rtl"] .space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .divide-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-x-reverse: 1;
+}
+
+/* RTL text alignment */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* RTL margins and padding fixes */
+[dir="rtl"] .ml-auto {
+  margin-left: unset;
+  margin-right: auto;
+}
+
+[dir="rtl"] .mr-auto {
+  margin-right: unset;
+  margin-left: auto;
+}
+
+/* Typography - Premium Editorial */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-canela), 'Georgia', serif;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+}
+
+h1 { 
+  font-size: 3rem;
+  font-weight: 300;
+}
+h2 { 
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+h3 { 
+  font-size: 1.875rem;
+  font-weight: 300;
+}
+h4 { 
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+h5 { 
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+h6 { 
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/* Focus styles - minimal and sophisticated */
+*:focus-visible {
+  outline: 2px solid var(--color-sage-500);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Selection styles */
+::selection {
+  background-color: var(--color-beige-200);
+  color: var(--color-text-primary);
+}
+
+/* Custom scrollbar - minimal */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-neutral-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-neutral-300);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-neutral-400);
+}
+
+/* Subtle Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Component-specific styles using design tokens */
+@layer components {
+  /* Minimal buttons */
+  .btn-minimal {
+    font-family: var(--font-apercu), sans-serif;
+    font-weight: 400;
+    border: 1px solid var(--color-neutral-200);
+    transition: all 0.3s ease;
+    background: transparent;
+  }
+  
+  .btn-minimal:hover {
+    background: var(--color-sage-500);
+    color: white;
+    border-color: var(--color-sage-500);
+  }
+  
+  /* Premium product card */
+  .product-card-minimal {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: white;
+    border: 1px solid var(--color-neutral-200);
+  }
+  
+  .product-card-minimal:hover {
+    box-shadow: var(--shadow-hover);
+  }
+  
+  /* Navigation styles */
+  .nav-minimal {
+    font-family: var(--font-apercu), sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 400;
+  }
+  
+  /* Editorial text styles */
+  .text-editorial {
+    font-family: var(--font-canela), 'Georgia', serif;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+  }
+  
+  /* Email signup section */
+  .email-signup {
+    background: var(--color-background-newsletter);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .email-input {
+    border: 1px solid var(--color-neutral-200);
+    background: white;
+    padding: 12px 16px;
+    font-family: var(--font-apercu), sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .email-input:focus {
+    outline: none;
+    border-color: var(--color-sage-500);
+  }
+  
+  /* Section spacing */
+  .section-spacing {
+    padding: 24px 0;
+  }
+}
+
+/* Utility classes */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+  
+  .fade-in {
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  /* Text utilities */
+  .text-primary { color: var(--color-text-primary); }
+  .text-secondary { color: var(--color-text-secondary); }
+  .text-tertiary { color: var(--color-text-tertiary); }
+  
+  /* Typography utilities */
+  .font-heading { font-family: var(--font-canela), 'Georgia', serif; }
+  .font-body { font-family: var(--font-apercu), sans-serif; }
+  .font-nav { 
+    font-family: var(--font-apercu), sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  
+  /* Spacing utilities */
+  .section-spacing { padding: 24px 0; }
+  
+  /* Border utilities */
+  .border-minimal { border: 1px solid var(--color-neutral-200); }
+}
+
+/* Smooth transitions */
+.transition-minimal {
+  transition: all 0.3s ease;
 }
